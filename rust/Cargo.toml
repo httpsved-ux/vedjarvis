@@ -20,9 +20,9 @@ members = [
     "crates/openjarvis-scheduler",
 ]
 
-# uuid 1.27 requires Rust 1.89; keep this aligned with rust-toolchain.toml.
+# Keep this aligned with rust-toolchain.toml and deploy/docker/Dockerfile.
 [workspace.package]
-rust-version = "1.89"
+rust-version = "1.90"
 
 [workspace.dependencies]
 serde = { version = "1", features = ["derive"] }
